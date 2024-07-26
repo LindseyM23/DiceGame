@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dice Game</title>
+    <link rel="icon" href="./dice-games images/dice logo.png" width="90">
+    <link href="https://fonts.cdnfonts.com/css/gameplay" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/pwsimplehandwriting" rel="stylesheet">
+                
+</head>
+<body>
+
+
+<div class="container">
+<div id="container">
+    <h1>Lets play!</h1>
+
+<div class="invisible-elements">
+    <h2 class="rollingDice"></h2>
+    <h2 class="results1"></h2>
+    <h2 class="results2"></h2>
+    <h2 class="results3"></h2>
+    <h2 class="rollingDiceText"></h2>
+    <h2 class="winnerText"></h2>
+</div>
+
+<div class="dices">
+    <div class="dice1">
+        <p class="player1">Player1</p>
+    <img src="images/dice6.png" class="player1Dice" width="120" alt="">
+  </div>
+
+    <div class="dice2">
+        <p class="player2">Player2</p>
+        <img src="images/dice6.png"class="player2Dice" width="120" alt="">
+        </div>
+</div>
+
+</div>
+
+<div class="dice-btns">
+<div class="container-bottom">
+    <button type="button"  class="btn1">Roll the dice Player1</button>  
+</div>
+
+<div class="container-bottom">
+    <button type="button" class="btn3">Roll the dice Player2</button>
+   </div>
+</div>
+<br>
+<br>
+
+<div class="container-bottom">
+    <button type="button" class="btn2">Edit Names</button>
+</div>
+<br>
+<br>
+
+
+<div class="game-history">
+    <button type="button" class="gameHistory">Game History</button>
+    <ul class="history"></ul>
+</div>
+
+
+<div class="end-btn">
+<div class="container-bottom">
+    <button type="button" class="new-game">New Game</button>
+</div>
+
+<div class="container-bottom">
+    <button type="button" class="home"><a href="index.html">Go Home</a></button>
+</div>
+
+</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
